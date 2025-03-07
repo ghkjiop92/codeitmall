@@ -1,0 +1,25 @@
+# node_modules 폴더 무시
+node_modules/
+
+# 빌드 결과물 무시
+dist/
+out/
+build/
+
+# 환경변수 파일 무시
+.env
+.env.local
+.env.production
+.env.development
+
+# 로그 파일 무시
+*.log
+logs/
+
+# 캐시 파일 무시
+.cache/
+.idea/
+.vscode/
+
+# Storybook 관련 파일 무시
+.storybook/
